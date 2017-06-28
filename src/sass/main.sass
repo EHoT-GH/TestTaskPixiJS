@@ -1,0 +1,50 @@
+@import "vars"
+
+*
+    margin: 0
+    padding: 0
+
+html
+    background-color: $bgc
+
+body
+    .test-component
+        margin: auto
+        width: 1200px
+        height: 420px
+        label
+            color: $font
+            font-family: $font-family
+            font-size: 18px
+            height: 24px
+            line-height: 24px
+            display: inline-block
+            vertical-align: top
+        #wrapper
+            border: 1px dashed $font
+            width: 1200px
+            height: 420px
+            margin: auto
+        button
+            height: 25px
+            border: 1px solid $lightBG
+            vertical-align: top
+            width: 42px
+            border-radius: 5px
+            font-size: 20px
+            &.inc
+                background-color: $success
+                &:hover
+                    cursor: pointer
+                    color: $font
+            &.dec
+                background-color: $danger
+            &:disabled
+                background-color: $disabled
+        textarea
+            font-size: 20px
+            text-align: center
+            border: none
+            vertical-align: middle
+            background-color: $bgc
+            color: $font

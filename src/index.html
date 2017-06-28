@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PIXIJS Test Task</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="../node_modules/pixi.js/dist/pixi.min.js"></script>
+</head>
+<body>
+<div class="test-component">
+  <!--TextAreas-->
+  <!--Number of current shapes-->
+  <label for="figures">Number of current shapes: </label>
+  <textarea name="figureCounter" id="figures" cols="5" rows="1" disabled></textarea>
+  <!--Surface-->
+  <label for="surface">Surface area occupied by shapes: </label>
+  <textarea name="surfaceOutput" id="surface" cols="15" rows="1" disabled></textarea>
+  <!--TextAreas END-->
+
+  <div id="wrapper"></div>
+
+  <!--Number of shapes per second-->
+  <label for="shapes">Number of shapes per second: </label>
+  <button class="dec" id="sps" onclick="controller.numberOfShapesPerSecond('-')">-</button>
+  <button class="inc" onclick="controller.numberOfShapesPerSecond('+')">+</button>
+  <textarea name="figureCounter" id="shapes" cols="5" rows="1" disabled></textarea>
+  <!--Number of shapes per second END-->
+  <!--Gravity Controller-->
+  <label for="gravity">Gravity: </label>
+  <button class="dec" onclick="controller.gravityControl('-')">-</button>
+  <button class="inc" onclick="controller.gravityControl('+')">+</button>
+  <textarea name="figureCounter" id="gravity" cols="5" rows="1" disabled></textarea>
+  <!--Gravity Controller END-->
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
