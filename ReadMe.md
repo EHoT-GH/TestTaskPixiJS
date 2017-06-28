@@ -1,4 +1,4 @@
-<h3><a href="https://ehot-gh.github.io/PIXI.js/index.html">This is Test Task on PIXI.JS</a></h3>
+<h3><a target="_blank" href="https://ehot-gh.github.io/PIXI.js/index.html">This is Test Task on PIXI.JS</a></h3>
 
 How to install: <br/>
 1. Clone this Git repository to your PC
