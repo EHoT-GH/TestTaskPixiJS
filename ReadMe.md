@@ -7,3 +7,6 @@ How to install: <br/>
 4. Open <code>index.html</code> in your browser.
 5. Enjoy \:\)
 <img src="https://github.com/EHoT-GH/trash/blob/master/screen_001.PNG">
+<img src="https://github.com/EHoT-GH/trash/blob/master/screen_002.PNG">
+<img src="https://github.com/EHoT-GH/trash/blob/master/screen_003.PNG">
+<img src="https://github.com/EHoT-GH/trash/blob/master/screen_004.PNG">
