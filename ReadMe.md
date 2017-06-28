@@ -6,3 +6,4 @@ How to install: <br/>
 3. Run gulp task: <code>\> gulp style</code>
 4. Open <code>index.html</code> in your browser.
 5. Enjoy \:\)
+<img src="https://github.com/EHoT-GH/trash/blob/master/screen_001.PNG">
